@@ -262,6 +262,9 @@
         },
         {
           "path": "json/roon.json"
+        },
+        {
+          "path": "json/eject.json"
         }
       ]
     },
