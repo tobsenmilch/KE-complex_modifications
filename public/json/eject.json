@@ -1,0 +1,23 @@
+    {
+      "description": "Eject volumes with Eject key",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "eject",
+            "modifiers": {
+              "optional": [
+                "right_shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open '/Applications/Parallels Toolbox.app/Contents/Applications/Eject Volumes.app'"
+            }
+          ]
+        },
+}
